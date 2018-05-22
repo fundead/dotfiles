@@ -1,0 +1,24 @@
+[alias]
+  st = status
+  cm = commit
+  co = checkout
+  br = branch
+[core]
+	autocrlf = input
+  whitespace = cr-at-eol
+	eol = lf
+[user]
+    name = Callum Gavin
+    # email = TODO: Fill this in per-machine
+[mergetool]
+	keepBackup = false
+
+# Mac-specific
+[difftool "kdiff3"]
+    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+[mergetool "kdiff3"]
+    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+[diff]
+    tool = kdiff3
+[merge]
+    tool = kdiff3
