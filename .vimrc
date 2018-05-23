@@ -29,5 +29,10 @@ nnoremap <silent> <Leader>v :NERDTreeFind<CR>
 
  " Plugins
 
+ " NERDtree
 autocmd vimenter * NERDTree " Nerdtree auto open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" CtrlP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+" Then run at Vim command line: :helptags ~/.vim/bundle/ctrlp.vim/doc
