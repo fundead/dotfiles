@@ -8,7 +8,7 @@
   whitespace = cr-at-eol
 	eol = lf
 [user]
-    name = Callum Gavin
+    name = #Fill this in
     # email = TODO: Fill this in per-machine
 [mergetool]
 	keepBackup = false
