@@ -8,17 +8,7 @@
   whitespace = cr-at-eol
 	eol = lf
 [user]
-    name = #Fill this in
-    # email = TODO: Fill this in per-machine
+    name = Callum
+    email = gavzilla+github@gmail.com
 [mergetool]
 	keepBackup = false
-
-# Mac-specific
-[difftool "kdiff3"]
-    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
-[mergetool "kdiff3"]
-    path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
-[diff]
-    tool = kdiff3
-[merge]
-    tool = kdiff3
