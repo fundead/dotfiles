@@ -19,6 +19,10 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Smart case insensitive search
+set ignorecase
+set smartcase
+
 " " Key remaps
  map <C-J> <C-W>j<C-W>_
  map <C-K> <C-W>k<C-W>_
